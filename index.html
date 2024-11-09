@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teletubbies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/_teletubbies_logo.png" type="image/png">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="images/_teletubbies_logo.png" alt="Teletubbies Logo" width="50" height="50">
+            <h1>Teletubbies</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_blank">About Us</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        body {
+            background-color: rgb(107, 175, 238); /* Fallback color */
+            background-image: url("Images/bg3.png"); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire body area */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+        }
+    </style>
+    
+    
+    <!-- Welcome Header -->
+    <header class="header" position="center">
+        <h1>WELCOME</h1>
+    </header>
+    
+
+    <!-- Carousel Container -->
+    <div class="carousel-container">
+        <!-- Carousel -->
+        <div class="carousel">
+            <div class="carousel-inner" id="carousel">
+                <!-- Carousel items with image container -->
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="images/bananasmoothies.png" alt="Banana Sips n' Slice">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="images/augustea.jpg" alt="Augustea">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="images/m&k.png" alt="M & K Restaurant">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="images/stitchbliss.png" alt="Stitch Bliss">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="images/vblooms.png" alt="VBlooms Shop">
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="moveCarousel(-1)">&#10094;</a>
+            <a class="next" onclick="moveCarousel(1)">&#10095;</a>
+        </div>
+
+        <!-- Sidebar with Member Links (Next to the carousel) -->
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="https://marielwebsite.com" target="_blank">
+                        <img src="images/sunbaby.png" alt="Sun Baby">  Mariel Sacare Nartia 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://melwaynewebsite.com" target="_blank">
+                        <img src="images/tinky-winky.png" alt="Tinky-winky"> Melwayne Riana Lora
+                    </a>
+                </li>
+                <li>
+                    <a href="https://keanwebsite.com" target="_blank">
+                        <img src="images/laa-laa.png" alt="Laa-laa"> Kean Ashley Lagariza
+                    </a>
+                </li>
+                <li>
+                    <a href="https://elviewebsite.com" target="_blank">
+                        <img src="images/po.png" alt="Po"> Elvie Ligutan Depaz
+                    </a>
+                </li>
+                <li>
+                    <a href="https://rikkajoywebsite.com" target="_blank">
+                        <img src="images/dipsy.png" alt="Dipsy"> Rikka Joy Mansueto
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
